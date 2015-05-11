@@ -91,4 +91,18 @@ This repository includes branches that correspond with the main phases of the tr
     $ git checkout -f <branch>
 
 __Note:__ _The "-f" discards any changes you have made to the code!_
+
+###What to do if your git is broken
+
+If you already created a `0-default-installation` branch:
+
+    $ git reset origin/0-default-installation --hard
+
+If you have not yet checked out the branch:
+
+    $ git checkout origin/0-default-installation
+
+If you want to clone the repository fresh again:
+
+    $ git clone https://github.com/jmolivas/sf2-d8-dcla-code.git training -b 0-default-installation
   
